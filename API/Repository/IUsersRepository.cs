@@ -8,6 +8,7 @@ namespace API.Repository
 {
     public interface IUsersRepository
     {
+        //GetAllUsers
         Task<List<Users>> GetUsersList();
 
         Task<Users> GetUserById(int userid);
